@@ -153,7 +153,9 @@ static_assert(WLED_MAX_BUSSES <= 32, "WLED_MAX_BUSSES exceeds hard limit");
   #endif
 #endif
 
-#define WLED_MAX_PANELS 18                      // must not be more than 32
+//start modified
+#define WLED_MAX_PANELS 100                      // must not be more than 32
+//end modified
 
 //Usermod IDs
 #define USERMOD_ID_RESERVED               0     //Unused. Might indicate no usermod present
